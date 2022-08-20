@@ -14,17 +14,13 @@ st.download_button("Download dataset", open(DATASET_FILE, 'r'))
 
 @st.cache(suppress_st_warning=True)
 def read_data():
-    """
-    Reads the local Titanic data set file
-    """
+    """Reads the local Titanic data set file"""
     with st.spinner("Loading data..."):
         return pd.read_csv(DATASET_FILE)
 
 
 def comment(text, where=None):
-    """
-    Add personal comment.
-    """
+    """Add personal comment."""
     write_to = st
     if where:
         write_to = where
