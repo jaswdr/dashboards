@@ -8,7 +8,7 @@ import streamlit as st
 
 st.title("Titanic dataset exploration")
 
-DATASET_FILE = './data/train.csv'
+DATASET_FILE = './data/titanic.csv'
 st.download_button("Download dataset", open(DATASET_FILE, 'r'))
 
 
