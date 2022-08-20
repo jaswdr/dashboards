@@ -1,6 +1,8 @@
 # Dashboards
 > This is my personal dashboards and analysis
 
+[![DeepSource](https://deepsource.io/gh/jaswdr/dashboards.svg/?label=active+issues&show_trend=true&token=FlkNJF7qJ_u3LTzR26p1MMHa)](https://deepsource.io/gh/jaswdr/dashboards/?ref=repository-badge)
+
 ## Getting Started
 
 Install dependencies
@@ -14,7 +16,7 @@ $ pip install -r ./requirements.txt
 Then run any `*.py` file
 
 ```bash
-$ streamlit run titanic.py
+$ python -m streamlit run ./src/jaswdr_dashboards/titanic.py
 
   You can now view your Streamlit app in your browser.
 
